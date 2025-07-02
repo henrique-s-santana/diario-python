@@ -16,19 +16,19 @@ def dividir(a,b): #Função que irá dividir
     return a/b
 
 def calculadora_simples():
-    print('='*33)
+    print('='*33) #Apenas estética(Opcional)
     print("=======Calculadora Simples=======")
-    print('='*33)
+    print('='*33) #Apenas estética(Opcional)
     
     
     #Entrada dos Valores e Operações
     try: #Try e Except = Tratamento de erros para evitar que o programa quebre.
         num1=float(input("Digite um número: "))
-        print('-'*33)
+        print('-'*33) #Apenas estética(Opcional)
         operacao=str(input("Digite uma operação (+,-,*,/): "))
-        print('-'*33)
+        print('-'*33) #Apenas estética(Opcional)
         num2=float(input("Digite um número: "))
-        print('-'*33)
+        print('-'*33) #Apenas estética(Opcional)
         
     except ValueError:
         print("Entrada Inválida!Por favor digite números válidos!")
@@ -50,7 +50,7 @@ def calculadora_simples():
         resultado = 'Operação Inválida!'
         
     print("Resultado: ", resultado)
-    print('='*33)
+    print('='*33) #Apenas estética(Opcional)
 
 #Irá executar a calculadora    
 calculadora_simples()    
