@@ -9,7 +9,7 @@ password_correct = '12345' #Define a senha do usuário.
 user = input("Digite seu usuário: ")
 password = input("Digite sua senha: ")
 
-#Irá verificar se Usuário e Senha digitados pelo usúario são os mesmos cadastrados.
+#Irá verificar se Usuário e Senha digitados pelo usuário são os mesmos cadastrados.
 if user == user_correct and password == password_correct: 
     print('Login bem sucedido!')
 
